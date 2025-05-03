@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" style="--color--primary-hue:0;--color--primary-saturation:87%;--color--primary-lightness:46">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 11 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="https://my-drupal10-site.ddev.site/core/themes/olivero/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="node/4.html" />
+<link rel="shortlink" href="node/4.html" />
+
+    <title>Home | Drush Site-Install</title>
+    <link rel="stylesheet" media="all" href="sites/default/files/css/css_mr0pgByabO4NwD1wu_Ivra11HUqdcZnMEFnCGamMC4U.css%3Fdelta=0&amp;language=en&amp;theme=olivero&amp;include=eJxdzEEKwzAMRNEL2fhIQbaFI6pKRXJidPsmFLLocv6DYQg95lYP4o5W5m6ITXlzbJNUEv-8kzc90aKo3J6U6ZpaBmsFzj6DScaTBU4acD_k60mlg8WDH11o2HONXFnb6wFHsLZnATNd_3.css" />
+<link rel="stylesheet" media="all" href="sites/default/files/css/css_hvUGxi1ikM3gjQZJiByK6S3oclkMuL3r4VAqtNubA2U.css%3Fdelta=1&amp;language=en&amp;theme=olivero&amp;include=eJxdzEEKwzAMRNEL2fhIQbaFI6pKRXJidPsmFLLocv6DYQg95lYP4o5W5m6ITXlzbJNUEv-8kzc90aKo3J6U6ZpaBmsFzj6DScaTBU4acD_k60mlg8WDH11o2HONXFnb6wFHsLZnATNd_3.css" />
+
+    
+    
+<link rel="preload" href="https://my-drupal10-site.ddev.site/core/themes/olivero/fonts/metropolis/Metropolis-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://my-drupal10-site.ddev.site/core/themes/olivero/fonts/metropolis/Metropolis-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://my-drupal10-site.ddev.site/core/themes/olivero/fonts/metropolis/Metropolis-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://my-drupal10-site.ddev.site/core/themes/olivero/fonts/lora/lora-v14-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <noscript><link rel="stylesheet" href="https://my-drupal10-site.ddev.site/core/themes/olivero/css/components/navigation/nav-primary-no-js.css?svkbsc" />
+</noscript>
+  </head>
+  <body class="path-frontpage page-node-type-page">
+        <a href="index.html#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div id="page-wrapper" class="page-wrapper">
+  <div id="page">
+
+          <header id="header" class="site-header" data-drupal-selector="site-header" role="banner">
+
+                <div class="site-header__fixable" data-drupal-selector="site-header-fixable">
+          <div class="site-header__initial">
+            <button class="sticky-header-toggle" data-drupal-selector="sticky-header-toggle" role="switch" aria-controls="site-header__inner" aria-label="Sticky header" aria-checked="false">
+              <span class="sticky-header-toggle__icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </button>
+          </div>
+
+                    <div id="site-header__inner" class="site-header__inner" data-drupal-selector="site-header-inner">
+            <div class="container site-header__inner__container">
+
+              
+
+
+<div id="block-olivero-site-branding" class="site-branding--bg-white site-branding block block-system block-system-branding-block">
+  
+    
+    <div class="site-branding__inner">
+          <a href="index.html" rel="home" class="site-branding__logo">
+        <img src="sites/default/files/OIP&#32;(1).jpg" alt="Home" fetchpriority="high" />
+      </a>
+          </div>
+</div>
+
+<div class="header-nav-overlay" data-drupal-selector="header-nav-overlay"></div>
+
+
+                              <div class="mobile-buttons" data-drupal-selector="mobile-buttons">
+                  <button class="mobile-nav-button" data-drupal-selector="mobile-nav-button" aria-label="Main Menu" aria-controls="header-nav" aria-expanded="false">
+                    <span class="mobile-nav-button__label">Menu</span>
+                    <span class="mobile-nav-button__icon"></span>
+                  </button>
+                </div>
+
+                <div id="header-nav" class="header-nav" data-drupal-selector="header-nav">
+                  
+<div class="search-block-form block block-search-narrow" data-drupal-selector="search-block-form" id="block-olivero-search-form-narrow" role="search">
+  
+    
+      <div class="content">
+      <form action="https://my-drupal10-site.ddev.site/search/node" method="get" id="search-block-form" accept-charset="UTF-8" class="search-form search-block-form">
+  <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys" class="form-item__label visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." placeholder="Search by keyword or phrase." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search form-element form-element--type-search form-element--api-search" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><button class="button--primary search-form__submit button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search">
+    <span class="icon--search"></span>
+    <span class="visually-hidden">Search</span>
+</button>
+
+</div>
+
+</form>
+
+    </div>
+  </div>
+<nav  id="block-olivero-main-menu" class="primary-nav block block-menu navigation menu--main" aria-labelledby="block-olivero-main-menu-menu" role="navigation">
+            
+  <h2 class="visually-hidden block__title" id="block-olivero-main-menu-menu">Main navigation</h2>
+  
+        
+
+
+          
+        
+    <ul  class="menu primary-nav__menu primary-nav__menu--level-1" data-drupal-selector="primary-nav-menu--level-1">
+            
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-1">
+                              
+                      <a href="index.html" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-1 is-active" data-drupal-selector="primary-nav-menu-link-has-children" data-drupal-link-system-path="&lt;front&gt;" aria-current="page">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-1">Home</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-1">
+                              
+                      <a href="node/5.html" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-1" data-drupal-selector="primary-nav-menu-link-has-children" data-drupal-link-system-path="node/5">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-1">Books</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--nolink primary-nav__menu-item--level-1">
+                              
+                      <span class="primary-nav__menu-link primary-nav__menu-link--nolink primary-nav__menu-link--level-1" data-drupal-selector="primary-nav-menu-link-has-children">Digital Media</span>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--nolink primary-nav__menu-item--level-1">
+                              
+                      <span class="primary-nav__menu-link primary-nav__menu-link--nolink primary-nav__menu-link--level-1" data-drupal-selector="primary-nav-menu-link-has-children">Toys &amp; Games</span>
+
+            
+                  </li>
+          </ul>
+  
+
+
+  </nav>
+
+
+                  
+
+  <div class="region region--secondary-menu">
+    <div class="search-block-form block block-search-wide" data-drupal-selector="search-block-form-2" id="block-olivero-search-form-wide" role="search">
+  
+    
+      <button class="block-search-wide__button" aria-label="Search Form" data-drupal-selector="block-search-wide-button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23">
+  <path fill="currentColor" d="M21.7,21.3l-4.4-4.4C19,15.1,20,12.7,20,10c0-5.5-4.5-10-10-10S0,4.5,0,10s4.5,10,10,10c2.1,0,4.1-0.7,5.8-1.8l4.5,4.5c0.4,0.4,1,0.4,1.4,0S22.1,21.7,21.7,21.3z M10,18c-4.4,0-8-3.6-8-8s3.6-8,8-8s8,3.6,8,8S14.4,18,10,18z"/>
+</svg>
+      <span class="block-search-wide__button-close"></span>
+    </button>
+
+        <div class="block-search-wide__wrapper" data-drupal-selector="block-search-wide-wrapper" tabindex="-1">
+      <div class="block-search-wide__container">
+        <div class="block-search-wide__grid">
+          <form action="https://my-drupal10-site.ddev.site/search/node" method="get" id="search-block-form--2" accept-charset="UTF-8" class="search-form search-block-form">
+  <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys--2" class="form-item__label visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." placeholder="Search by keyword or phrase." data-drupal-selector="edit-keys" type="search" id="edit-keys--2" name="keys" value="" size="15" maxlength="128" class="form-search form-element form-element--type-search form-element--api-search" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--2"><button class="button--primary search-form__submit button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit--2" value="Search">
+    <span class="icon--search"></span>
+    <span class="visually-hidden">Search</span>
+</button>
+
+</div>
+
+</form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+<nav  id="block-olivero-account-menu" class="block block-menu navigation menu--account secondary-nav" aria-labelledby="block-olivero-account-menu-menu" role="navigation">
+            
+  <span class="visually-hidden" id="block-olivero-account-menu-menu">User account menu</span>
+  
+        
+
+
+          <ul class="menu secondary-nav__menu secondary-nav__menu--level-1">
+            
+                          
+        
+        
+        <li class="secondary-nav__menu-item secondary-nav__menu-item--link secondary-nav__menu-item--level-1">
+          <a href="https://my-drupal10-site.ddev.site/user/login" class="secondary-nav__menu-link secondary-nav__menu-link--link secondary-nav__menu-link--level-1" data-drupal-link-system-path="user/login">Log in</a>
+
+                  </li>
+          </ul>
+  
+
+
+  </nav>
+
+  </div>
+
+                </div>
+                          </div>
+          </div>
+        </div>
+      </header>
+    
+    <div id="main-wrapper" class="layout-main-wrapper layout-container">
+      <div id="main" class="layout-main">
+        <div class="main-content">
+          <a id="main-content" tabindex="-1"></a>
+          
+          <div class="main-content__container container">
+            
+
+  <div class="region region--highlighted grid-full layout--pass--content-medium">
+    <div data-drupal-messages-fallback class="hidden messages-list"></div>
+
+  </div>
+
+            
+
+                          <main role="main">
+                
+
+
+                
+
+  <div class="region region--content grid-full layout--pass--content-medium" id="content">
+    
+
+<div id="block-olivero-content" class="block block-system block-system-main-block">
+  
+    
+      <div class="block__content">
+      
+
+<article data-history-node-id="4" class="node node--type-page node--view-mode-full">
+  <header class="">
+    
+          
+      </header>
+  <div class="node__content">
+          <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+
+<div class="block block-layout-builder block-field-blocknodepagebody">
+  
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><img data-entity-uuid="8819aace-4dde-4f17-8a34-63ba728e82e4" data-entity-type="file" src="sites/default/files/inline-images/maxresdefault.jpg" width="1280" height="720" loading="lazy"></div>
+      
+    </div>
+  </div>
+
+
+<div class="block block-layout-builder block-extra-field-blocknodepagelinks">
+  
+    
+      <div class="block__content">
+      
+    </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="layout layout--threecol-section layout--threecol-section--33-34-33">
+
+          <div  class="layout__region layout__region--first">
+        
+
+<div class="block block-layout-builder block-inline-blockbasic">
+  
+      <h2 class="block__title">Featured Books</h2>
+    
+      <div class="block__content">
+      
+    </div>
+  </div>
+
+
+<div class="block block-layout-builder block-inline-blockbasic">
+  
+      <h2 class="block__title">Onyx Storm</h2>
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><img data-entity-uuid="bf7de831-3990-4e62-b543-65147e3e19f5" data-entity-type="file" src="sites/default/files/inline-images/1200x1200wz.jpg" width="1200" height="1200" loading="lazy"></div>
+      
+    </div>
+  </div>
+
+
+<div class="block block-layout-builder block-inline-blockbasic">
+  
+      <h2 class="block__title">Harry Potter Series</h2>
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><img data-entity-uuid="40e77a29-5258-4bea-a3a2-04f05361e854" data-entity-type="file" src="sites/default/files/inline-images/Harry+Potter+US+Editions.jpg" width="664" height="425" loading="lazy"></div>
+      
+    </div>
+  </div>
+
+
+<div class="block block-layout-builder block-inline-blockbasic">
+  
+      <h2 class="block__title">Atomic Habits</h2>
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><img data-entity-uuid="6948befe-dce5-4f09-b3e5-04a3da1d3897" data-entity-type="file" src="sites/default/files/inline-images/Atomic_habits_0.jpg" width="528" height="799" loading="lazy"></div>
+      
+    </div>
+  </div>
+
+      </div>
+    
+          <div  class="layout__region layout__region--second">
+        
+
+<div class="block block-layout-builder block-inline-blockbasic">
+  
+      <h2 class="block__title">Digital Hits</h2>
+    
+      <div class="block__content">
+      
+    </div>
+  </div>
+
+
+<div class="block block-layout-builder block-inline-blockbasic">
+  
+      <h2 class="block__title">Avengers Endgame</h2>
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><img data-entity-uuid="6d033f16-cdde-4350-8261-92730abca17d" data-entity-type="file" src="sites/default/files/inline-images/81w0SUbz62L._AC_UF894,1000_QL80_.jpg" width="688" height="1000" loading="lazy"></div>
+      
+    </div>
+  </div>
+
+
+<div class="block block-layout-builder block-inline-blockbasic">
+  
+      <h2 class="block__title">Batman Begins</h2>
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><img data-entity-uuid="dcbcedfe-faa6-4345-90fd-f0b32f212795" data-entity-type="file" src="sites/default/files/inline-images/DSC_5861.jpg" width="1500" height="1500" loading="lazy"></div>
+      
+    </div>
+  </div>
+
+
+<div class="block block-layout-builder block-inline-blockbasic">
+  
+      <h2 class="block__title">Lion King</h2>
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><img data-entity-uuid="23d27005-1274-464c-be39-3fda4b0d981c" data-entity-type="file" src="sites/default/files/inline-images/81NJxrrMnfL._AC_UF894,1000_QL80_.jpg" width="692" height="1000" loading="lazy"></div>
+      
+    </div>
+  </div>
+
+      </div>
+    
+          <div  class="layout__region layout__region--third">
+        
+
+<div class="block block-layout-builder block-inline-blockbasic">
+  
+      <h2 class="block__title">Games for all ages</h2>
+    
+      <div class="block__content">
+      
+    </div>
+  </div>
+
+
+<div class="block block-layout-builder block-inline-blockbasic">
+  
+      <h2 class="block__title">Monopoly Deal</h2>
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><img data-entity-uuid="26eb8190-b845-470f-8e8b-5bcafebca110" data-entity-type="file" src="sites/default/files/inline-images/233506_0.jpg" width="1000" height="1000" loading="lazy"><p>&nbsp;</p></div>
+      
+    </div>
+  </div>
+
+
+<div class="block block-layout-builder block-inline-blockbasic">
+  
+      <h2 class="block__title">UNO</h2>
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><img data-entity-uuid="3fbf8781-a5e1-43ad-bffc-d8061cc9276d" data-entity-type="file" src="sites/default/files/inline-images/W2087.jpg" width="1400" height="1400" class="align-center" loading="lazy"></div>
+      
+    </div>
+  </div>
+
+
+<div class="block block-layout-builder block-inline-blockbasic">
+  
+      <h2 class="block__title">Bicycle Playing Cards</h2>
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><img data-entity-uuid="1dc0476a-f276-484e-aafc-4e1e3d4cc75e" data-entity-type="file" src="sites/default/files/inline-images/616z-2GZeCL._AC_UF1000,1000_QL80_.jpg" width="820" height="1000" loading="lazy"></div>
+      
+    </div>
+  </div>
+
+      </div>
+    
+  </div>
+
+  </div>
+  </article>
+
+    </div>
+  </div>
+
+  </div>
+
+              </main>
+                        
+          </div>
+        </div>
+        <div class="social-bar">
+          
+<div class="social-bar__inner fixable">
+  <div class="rotate">
+    
+
+<div id="block-olivero-page-title" class="block block-core block-page-title-block">
+  
+  
+
+  <h1 class="title page-title">
+<span>Home</span>
+</h1>
+
+
+  
+</div>
+
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner container">
+        
+        
+
+  <div class="region region--footer-bottom grid-full layout--pass--content-medium">
+    
+
+<div id="block-olivero-powered" class="block block-system block-system-powered-by-block">
+  
+    
+    
+  <span>
+    Powered by    <a href="https://www.drupal.org">Drupal</a>
+    <span class="drupal-logo" role="img" aria-label="Drupal Logo">
+      <svg width="14" height="19" viewBox="0 0 42.15 55.08" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M29.75 11.73C25.87 7.86 22.18 4.16 21.08 0 20 4.16 16.28 7.86 12.4 11.73 6.59 17.54 0 24.12 0 34a21.08 21.08 0 1042.15 0c0-9.88-6.59-16.46-12.4-22.27zM10.84 35.92a14.13 14.13 0 00-1.65 2.62.54.54 0 01-.36.3h-.18c-.47 0-1-.92-1-.92-.14-.22-.27-.45-.4-.69l-.09-.19C5.94 34.25 7 30.28 7 30.28a17.42 17.42 0 012.52-5.41 31.53 31.53 0 012.28-3l1 1 4.72 4.82a.54.54 0 010 .72l-4.93 5.47zm10.48 13.81a7.29 7.29 0 01-5.4-12.14c1.54-1.83 3.42-3.63 5.46-6 2.42 2.58 4 4.35 5.55 6.29a3.08 3.08 0 01.32.48 7.15 7.15 0 011.3 4.12 7.23 7.23 0 01-7.23 7.25zM35 38.14a.84.84 0 01-.67.58h-.14a1.22 1.22 0 01-.68-.55 37.77 37.77 0 00-4.28-5.31l-1.93-2-6.41-6.65a54 54 0 01-3.84-3.94 1.3 1.3 0 00-.1-.15 3.84 3.84 0 01-.51-1v-.19a3.4 3.4 0 011-3c1.24-1.24 2.49-2.49 3.67-3.79 1.3 1.44 2.69 2.82 4.06 4.19a57.6 57.6 0 017.55 8.58A16 16 0 0135.65 34a14.55 14.55 0 01-.65 4.14z"/>
+</svg>
+    </span>
+  </span>
+</div>
+
+  </div>
+
+      </div>
+    </footer>
+
+    <div class="overlay" data-drupal-selector="overlay"></div>
+
+  </div>
+</div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/4","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxTrustedUrl":{"\/search\/node":true},"user":{"uid":0,"permissionsHash":"bfcba6b85bbfc47835306003047cb44d43423479a20dcbd0545680e94c1790d0"}}</script>
+<script src="sites/default/files/js/js_zsYoEVBG9TndUcN03HaDbbF_NGvFjj9k6IoO8D8O_X0.js%3Fscope=footer&amp;delta=0&amp;language=en&amp;theme=olivero&amp;include=eJzLz8ksSy3K10_PyU9KzNEtLqnMycxL18mHChenJhYlZ-iWZ6akAgBmbhB_"></script>
+
+  </body>
+</html>
